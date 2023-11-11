@@ -3,7 +3,7 @@ CREATE TABLE pelanggan (
     p_nama VARCHAR(60) NOT NULL,
     p_no_telp VARCHAR(15) NOT NULL NOT NULL,
     p_email VARCHAR(256),
-    p_alama VARCHAR(100) NOT NULL,
+    p_alamat VARCHAR(100) NOT NULL,
     PRIMARY KEY (p_id)
 );
 
@@ -48,7 +48,7 @@ CREATE TABLE tiket_servis (
 CREATE TABLE mekanik_servis (
     mksv_mk_id CHAR(6) NOT NULL,
     mksv_ts_id CHAR(8) NOT NULL,
-    FOREIGN KEY (mksv_mk_id) REFERENCES mekanik(mk_id),
+    FOREIGN KEY (mksv_mk_id) REFERENCES mekanik(mk_id) ON DELETE CASCADE,
     FOREIGN KEY (mksv_ts_id) REFERENCES tiket_servis(ts_id)
 );
 

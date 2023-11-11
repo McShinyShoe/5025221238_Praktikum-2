@@ -1,10 +1,10 @@
-INSERT INTO pelanggan (p_id, p_nama, p_no_telp, p_email, p_alama) VALUES ('3225011201880002', 'Andy Williams', '62123456789', 'andy@gmail.com', 'Jl. Apel no 1');
-INSERT INTO pelanggan (p_id, p_nama, p_no_telp, p_email, p_alama) VALUES ('3525010706950001', 'Marshall Paul', '621451871011', 'paulan@gmail.com', 'Jl. Jeruk no 12');
-INSERT INTO pelanggan (p_id, p_nama, p_no_telp, p_email, p_alama) VALUES ('3525016005920002', 'Kazuya Tanaka', '62190129190', 'tanaka@gmail.com', 'Jl. JKT no 48');
-INSERT INTO pelanggan (p_id, p_nama, p_no_telp, p_email, p_alama) VALUES ('3975311107780001', 'Budi Prutomo', '621545458901', NULL, 'Jl. Nanas no 45');
-INSERT INTO pelanggan (p_id, p_nama, p_no_telp, p_email, p_alama) VALUES ('3098762307810002', 'Razai Ambudi', '621898989102', NULL, 'Jl. Mangga no 2');
+INSERT INTO pelanggan (p_id, p_nama, p_no_telp, p_email, p_alamat) VALUES ('3225011201880002', 'Andy Williams', '62123456789', 'andy@gmail.com', 'Jl. Apel no 1');
+INSERT INTO pelanggan (p_id, p_nama, p_no_telp, p_email, p_alamat) VALUES ('3525010706950001', 'Marshall Paul', '621451871011', 'paulan@gmail.com', 'Jl. Jeruk no 12');
+INSERT INTO pelanggan (p_id, p_nama, p_no_telp, p_email, p_alamat) VALUES ('3525016005920002', 'Kazuya Tanaka', '62190129190', 'tanaka@gmail.com', 'Jl. JKT no 48');
+INSERT INTO pelanggan (p_id, p_nama, p_no_telp, p_email, p_alamat) VALUES ('3975311107780001', 'Budi Prutomo', '621545458901', NULL, 'Jl. Nanas no 45');
+INSERT INTO pelanggan (p_id, p_nama, p_no_telp, p_email, p_alamat) VALUES ('3098762307810002', 'Razai Ambudi', '621898989102', NULL, 'Jl. Mangga no 2');
 
-INSERT INTO pegawai (mk_id, mk_nama, mk_posisi) VALUES ('MK0001', 'Walter ', 'mekanik');
+INSERT INTO pegawai (mk_id, mk_nama, mk_posisi) VALUES ('MK0001', 'Walter Jones', 'mekanik');
 INSERT INTO pegawai (mk_id, mk_nama, mk_posisi) VALUES ('MK0002', 'Kentaki Veraid', 'kasir');
 INSERT INTO pegawai (mk_id, mk_nama, mk_posisi) VALUES ('MK0003', 'Leo', 'mekanik');
 INSERT INTO pegawai (mk_id, mk_nama, mk_posisi) VALUES ('MK0004', 'Reyhand Janita', 'pencuci');
